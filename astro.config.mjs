@@ -6,7 +6,11 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'EB2Java Technical Docs',
+			logo: {
+				src: '/src/assets/ellucian4.png',
+				alt: 'EB2Java Technical Docs',
+			},
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
